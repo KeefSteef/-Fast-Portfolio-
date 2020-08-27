@@ -1,0 +1,344 @@
+@media screen and (max-width: 1500px) {
+    .nav__block {
+        position: relative;
+        left: 7%;
+    }
+
+    .navigation-container h1 a {
+        font-size: 180px;
+    }
+}
+
+
+@media screen and (max-width: 1400px) {
+    .hidertext_second {
+        margin-left: 400px;
+    }
+
+    .ab__title {
+        font-size: 19px;
+        /* font-family: "Museo Sans 500"; */
+    }
+
+    .img {
+        height: 650px;
+        width: 450px;
+    }
+
+    .get_in_cl {
+        margin-left: 0px;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: flex-start;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    .hidertext_second {
+        margin-left: 250px;
+    }
+
+    .contact_title {
+        position: relative;
+        left: 150px;
+    }
+
+    .contact_title h1 span {
+        font-size: 120px;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .contact_title h1 span {
+        font-size: 105px;
+    }
+
+    .contact_title h1 {
+        min-width: 960px;
+    }
+
+    .navigation-container h1 a {
+        font-size: 155px;
+    }
+
+    .hidertext_third {
+        margin-left: 50px;
+    }
+
+    .hidertext_second {
+        margin-left: 156px;
+    }
+
+    .img {
+        height: 500px;
+        width: 400px;
+        margin: 10px;
+    }
+
+    .ab__title {
+        font-size: 14px;
+        /* font-family: "Museo Sans 500"; */
+    }
+}
+
+
+
+@media screen and (max-width:800px) {
+
+
+    .hidertext_second {
+        margin-left: 0px;
+    }
+
+    .hidertext_third {
+        margin-left: 0px;
+    }
+
+    .img {
+        height: 400px;
+        width: 300px;
+        margin: 10px;
+    }
+
+    .ab__title {
+        font-size: 15px;
+        /* font-family: "Museo Sans 500"; */
+        min-width: 395px;
+    }
+
+    .ab__sec_cont {
+        padding-top: 40px;
+        flex-direction: column-reverse;
+
+    }
+
+    .img_block {
+
+        align-items: flex-start;
+        position: relative;
+        right: 13px;
+        justify-content: flex-start;
+    }
+
+    .contact_title h1 {
+        min-width: 860px;
+        font-size: 82px;
+    }
+
+    .img_block {
+        width: 80%;
+        height: 100%;
+        /* display: none; */
+    }
+
+
+
+    .ab__title {
+        font-size: 23px;
+        /* font-family: "Museo Sans 500"; */
+        min-width: 395px;
+    }
+
+    .ab__text {
+        font-size: 30px;
+    }
+
+    .ab__info {
+        min-width: 650px;
+    }
+}
+
+
+@media screen and (max-width:650px) {
+    .navigation-container h1 a {
+        font-size: 128px;
+    }
+
+    /* .img_block
+    {
+        display: none;
+    } */
+    .ab__info {
+        min-width: 500px;
+    }
+
+    .contact_title h1 span {
+        font-size: 87px;
+    }
+
+    .contact_title h1 {
+        min-width: 725px;
+        font-size: 82px;
+    }
+
+
+    .get_in_cl div {
+        margin-left: 59px;
+    }
+
+    @media screen and (max-width:500px) {
+
+
+
+        .nav__block {
+            position: relative;
+            left: 3%;
+        }
+
+        .navigation-container h1 {
+            font-size: 45px;
+        }
+
+        .navigation-container h1 a {
+            font-size: 88px;
+        }
+
+        .nav__block h1 {
+            margin-top: 35px;
+        }
+
+        .nav__block {
+            margin-top: -150px;
+        }
+
+
+        .ab__info {
+
+            margin-top: -200px;
+            min-width: 260px;
+        }
+
+        .ab__title {
+            font-size: 13.5px;
+        }
+
+        .ab__text {
+            /* max-width: 250px; */
+            font-size: 15px;
+        }
+
+        .img_block {
+            display: none;
+        }
+
+        .ab__sec_cont {
+
+            padding-top: 0px;
+            justify-content: flex-start;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .ab_text_cl {
+            width: 100%;
+        }
+
+    }
+}
+
+@media screen and (max-width: 500px) {
+
+
+    .ex-project {
+        width: 300px;
+        height: 300px;
+    }
+
+    .wrk-info {
+        min-width: 100px;
+    }
+
+
+    .ex-project:nth-child(odd) {
+        align-self: center !important;
+    }
+
+    .ex-project:nth-child(even) {
+        -ms-flex-item-align: start;
+        align-self: center;
+    }
+
+
+    .contact_title h1 span {
+        font-size: 50px;
+    }
+
+    .contact_title h1 {
+        min-width: 480px;
+        font-size: 50px;
+    }
+
+    .get_in_cl div h2 {
+        font-size: 15px;
+    }
+
+    .get_in_cl div {
+        margin-left: 30px;
+    }
+
+    .get_in_cl {
+        display: flex;
+        /* flex-direction: column; */
+    }
+
+    .contact_title {
+        position: relative;
+        left: 160px;
+    }
+
+    .get_in_cl p {
+        /* margin: 20px; */
+        font-size: 12px;
+    }
+
+    .contact_title
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        left: 0px;
+        margin: 0px 0px 40px;
+    }
+
+    .contact_title h1
+    {
+        position: relative;
+        left: 60px;
+    }
+
+}
+
+@media screen and (max-width: 330px) {
+    .contact_title h1 span{
+        left: 30px;
+        font-size: 40px;
+    }
+    .get_in_cl p {
+        /* margin: 20px; */
+        font-size: 10px;
+    }
+    .get_in_cl div h2 {
+        font-size: 13px;
+    }
+    .get_in_cl{
+        right: 8px;
+        position: relative;
+    }
+    .contact_title
+    {
+        margin: 0px 0px 30px;
+    }
+    .navigation-container h1 a {
+        font-size: 65px;
+    }
+    .ab__title {
+        font-size: 10.5px;
+    }
+    .ab__info
+    {
+        padding-top: 50px;
+    }
+}
